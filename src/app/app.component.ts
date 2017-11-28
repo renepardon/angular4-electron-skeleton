@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
     title = String;
+    currentJustify = 'justified';
 
     constructor() {
         const app = electron.remote.app;
