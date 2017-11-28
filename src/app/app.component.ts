@@ -11,8 +11,8 @@ export class AppComponent {
     constructor() {
         var app = electron.remote.app;
         this.title = app.getAppPath();
-    
+
         var platform = require('os').platform();
-        console.log(platform);    
+        alert(platform);
     }
 }
