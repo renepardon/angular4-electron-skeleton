@@ -57,7 +57,7 @@ import 'core-js/es7/reflect';
 /***************************************************************************************************
  * Zone JS is required by Angular itself.
  */
-import 'zone.js/dist/zone-mix';  // Included with Angular CLI.
+import 'zone.js/dist/zone-mix';  // this one is required for electron with angular
 
 
 
@@ -69,8 +69,9 @@ import 'zone.js/dist/zone-mix';  // Included with Angular CLI.
  * Date, currency, decimal and percent pipes.
  * Needed for: All but Chrome, Firefox, Edge, IE11 and Safari 10
  */
-// import 'intl';  // Run `npm install --save intl`.
+import 'intl';  // Run `npm install --save intl`.
 /**
  * Need to import at least one locale-data with intl.
  */
-// import 'intl/locale-data/jsonp/en';
+import 'intl/locale-data/jsonp/en';
+import 'intl/locale-data/jsonp/de';
